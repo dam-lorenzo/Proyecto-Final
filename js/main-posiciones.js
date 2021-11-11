@@ -13,6 +13,7 @@ $(document).ready(function(){
     })
     $('#refreshAPI').click(function(){
         checkUpdates(true)
+        location.reload()
     })
 })
 
